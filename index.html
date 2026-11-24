@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171515">
+  <meta name="description" content="NOIRÉ ATELIER — The art of extraordinary indulgence. Refined patisserie, bespoke creations and seasonal desserts.">
+  <title>NOIRÉ ATELIER — The Art of Extraordinary Indulgence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <a class="wordmark" href="#hero" aria-label="NOIRÉ ATELIER home">NOIRÉ <span>ATELIER</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#collections">Collections</a>
+      <a href="#craft">Our Craft</a>
+      <a href="#bespoke">Bespoke</a>
+      <a href="#journal">Journal</a>
+    </nav>
+    <div class="header-actions">
+      <span class="language-label">EN <span aria-hidden="true">/</span> IN</span>
+      <button class="button button-outline button-small" data-open-enquiry>Enquire</button>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <p class="eyebrow">NOIRÉ ATELIER · MENU</p>
+      <a href="#collections">Collections <span>01</span></a>
+      <a href="#craft">Our Craft <span>02</span></a>
+      <a href="#bespoke">Bespoke <span>03</span></a>
+      <a href="#journal">Journal <span>04</span></a>
+      <a href="#contact">Contact <span>05</span></a>
+      <button class="button button-gold" data-open-enquiry>Begin an enquiry</button>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="hero-image" role="img" aria-label="A handcrafted dark chocolate entremet on a ceramic plate"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-kicker"><span class="eyebrow-line"></span> MAISON DE PATISSERIE <span class="dot">·</span> EST. 2026</p>
+        <h1>AN ART FORM.<br><em>MEANT TO BE</em><br>SAVOURED.</h1>
+        <p class="hero-copy">Where delicate craftsmanship meets extraordinary flavour. Discover patisserie beyond the ordinary.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#collections">Explore the collection <span class="arrow">↗</span></a>
+          <a class="text-link light-link" href="#craft">Discover our craft <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-side-note">A QUIETER KIND OF INDULGENCE</div>
+      <a class="scroll-cue" href="#collections"><span></span> SCROLL TO DISCOVER</a>
+      <div class="hero-index">01 <i></i> 04</div>
+    </section>
+
+    <section class="collection section-ivory section-pad" id="collections">
+      <div class="section-heading collection-heading">
+        <div>
+          <p class="eyebrow dark-eyebrow">THE SIGNATURE COLLECTION</p>
+          <h2>CREATED TO BE<br><em>REMEMBERED.</em></h2>
+        </div>
+        <p class="section-intro">An expression of precision, patience and the finest ingredients. Each creation is composed with intention, finished by hand and made to be savoured slowly.</p>
+      </div>
+      <div class="collection-grid" id="productGrid">
+        <article class="product-card" data-product="eclipse">
+          <button class="product-image image-button" data-product-open="eclipse" aria-label="View Éclipse Noire">
+            <img src="assets/images/signature_eclipse_noire_1795507039674.jpg" alt="Éclipse Noire dark chocolate entremet" loading="lazy">
+            <span class="image-number">01 / 04</span><span class="image-view">DISCOVER ↗</span>
+          </button>
+          <div class="product-meta"><span>SIGNATURE Nº 01</span><span>₹1,850</span></div>
+          <div class="product-title-row"><h3>Éclipse Noire</h3><button class="round-arrow" data-product-open="eclipse" aria-label="Discover Éclipse Noire">↗</button></div>
+          <p>Dark chocolate mousse, hazelnut praline and cocoa biscuit.</p>
+        </article>
+        <article class="product-card" data-product="rose">
+          <button class="product-image image-button" data-product-open="rose" aria-label="View Rosé Velours">
+            <img src="assets/images/signature_rose_velours_1795507040243.jpg" alt="Rosé Velours raspberry and vanilla dessert" loading="lazy">
+            <span class="image-number">02 / 04</span><span class="image-view">DISCOVER ↗</span>
+          </button>
+          <div class="product-meta"><span>SIGNATURE Nº 02</span><span>₹2,100</span></div>
+          <div class="product-title-row"><h3>Rosé Velours</h3><button class="round-arrow" data-product-open="rose" aria-label="Discover Rosé Velours">↗</button></div>
+          <p>Raspberry crémeux, vanilla mousse and almond sponge.</p>
+        </article>
+        <article class="product-card" data-product="opera">
+          <button class="product-image image-button" data-product-open="opera" aria-label="View Opéra d'Or">
+            <img src="assets/images/signature_opera_dor_1795507040800.jpg" alt="Opéra d'Or layered coffee and chocolate pastry" loading="lazy">
+            <span class="image-number">03 / 04</span><span class="image-view">DISCOVER ↗</span>
+          </button>
+          <div class="product-meta"><span>SIGNATURE Nº 03</span><span>₹2,250</span></div>
+          <div class="product-title-row"><h3>Opéra d'Or</h3><button class="round-arrow" data-product-open="opera" aria-label="Discover Opéra d'Or">↗</button></div>
+          <p>Espresso ganache, almond joconde and delicate chocolate glaze.</p>
+        </article>
+        <article class="product-card" data-product="fleur">
+          <button class="product-image image-button" data-product-open="fleur" aria-label="View Fleur de Vanille">
+            <img src="assets/images/signature_fleur_vanille_1795507041238.jpg" alt="Fleur de Vanille vanilla and seasonal fruit dessert" loading="lazy">
+            <span class="image-number">04 / 04</span><span class="image-view">DISCOVER ↗</span>
+          </button>
+          <div class="product-meta"><span>SIGNATURE Nº 04</span><span>₹1,950</span></div>
+          <div class="product-title-row"><h3>Fleur de Vanille</h3><button class="round-arrow" data-product-open="fleur" aria-label="Discover Fleur de Vanille">↗</button></div>
+          <p>Madagascar vanilla, white chocolate and seasonal fruit.</p>
+        </article>
+      </div>
+      <div class="collection-foot"><span>FOUR EXPRESSIONS · ONE SIGNATURE</span><button class="text-link dark-link" data-open-enquiry>Enquire about the collection <span>↗</span></button></div>
+    </section>
+
+    <section class="craft section-dark section-pad" id="craft">
+      <div class="craft-top">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE ART OF CRAFT</p>
+        <span class="craft-index">02 — THE PROCESS</span>
+      </div>
+      <div class="craft-layout">
+        <div class="craft-copy">
+          <h2>BEAUTY IS<br>IN THE <em>DETAILS.</em></h2>
+          <p class="craft-lead">Every creation begins with an idea. Every layer is considered. Every finish is deliberate.</p>
+          <p class="body-muted">We believe exceptional patisserie is not simply made. It is composed. Through patient technique, thoughtful ingredients and a deep respect for the craft, we turn familiar flavours into something quietly extraordinary.</p>
+          <a class="text-link light-link" href="#philosophy">The principles behind our work <span>↗</span></a>
+        </div>
+        <div class="craft-images">
+          <figure class="craft-image craft-image-large"><img src="assets/images/craft_chocolate_tempering_1795507041788.jpg" alt="Artisan tempering chocolate by hand" loading="lazy"><figcaption>01 — THE TEMPER</figcaption></figure>
+          <figure class="craft-image craft-image-small"><img src="assets/images/craft_pastry_finishing_1795507043362.jpg" alt="A pastry chef carefully finishing a dessert" loading="lazy"><figcaption>02 — THE FINISH</figcaption></figure>
+        </div>
+      </div>
+      <div class="craft-bottom-note"><span>MADE SLOWLY. REMEMBERED LONGER.</span><span>NO SHORTCUTS, ONLY CRAFT.</span></div>
+    </section>
+
+    <section class="bespoke section-burgundy section-pad" id="bespoke">
+      <div class="bespoke-image"><img src="assets/images/bespoke_celebration_cake_1795507043385.jpg" alt="Sculptural bespoke celebration cake" loading="lazy"></div>
+      <div class="bespoke-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE BESPOKE EXPERIENCE</p>
+        <h2>MADE FOR<br><em>YOUR MOMENTS.</em></h2>
+        <p>Some occasions deserve something entirely their own. From intimate celebrations to extraordinary gatherings, our bespoke creations are designed around your vision.</p>
+        <button class="button button-gold" data-open-enquiry data-occasion="Bespoke Celebration">Begin your bespoke enquiry <span class="arrow">↗</span></button>
+        <span class="bespoke-note">A PERSONAL APPROACH TO EVERY OCCASION</span>
+      </div>
+      <div class="bespoke-number">03</div>
+    </section>
+
+    <section class="seasonal section-ivory section-pad" id="seasonal">
+      <div class="seasonal-top"><p class="eyebrow dark-eyebrow">THE SEASONAL EDITION — Nº 01</p><span>AVAILABLE FOR A LIMITED SEASON</span></div>
+      <div class="seasonal-layout">
+        <div class="seasonal-copy">
+          <p class="seasonal-overline">A STUDY IN</p>
+          <h2>CHOCOLATE<span>.</span></h2>
+          <p class="seasonal-description">A limited seasonal composition exploring depth, texture and the quiet elegance of dark chocolate.</p>
+          <p class="seasonal-detail">BITTER · SILK · ROASTED · DEEP</p>
+          <button class="text-link dark-link" data-open-enquiry data-occasion="Seasonal Edition — A Study in Chocolate">Discover the edition <span>↗</span></button>
+        </div>
+        <figure class="seasonal-image"><img src="assets/images/seasonal_study_chocolate_1795507043881.jpg" alt="Seasonal dark chocolate dessert composition" loading="lazy"><figcaption>THE SEASONAL EDITION / 2026</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="philosophy section-dark section-pad" id="philosophy">
+      <div class="philosophy-heading"><p class="eyebrow"><span class="eyebrow-line"></span> WHAT GUIDES US</p><h2>LESS, BUT<br><em>EXTRAORDINARY.</em></h2></div>
+      <div class="principles">
+        <article class="principle"><span>01</span><div><h3>INGREDIENTS</h3><p>Exceptional ingredients are the foundation of every creation. We choose with care, favouring character, seasonality and quality over excess.</p></div><span class="principle-mark">✳</span></article>
+        <article class="principle"><span>02</span><div><h3>CRAFT</h3><p>Precision and patience shape every detail. The quiet work behind each layer is what makes the final experience feel effortless.</p></div><span class="principle-mark">✳</span></article>
+        <article class="principle"><span>03</span><div><h3>EXPERIENCE</h3><p>Every creation should leave a lasting impression — not through spectacle alone, but through balance, texture and thoughtful flavour.</p></div><span class="principle-mark">✳</span></article>
+      </div>
+    </section>
+
+    <section class="journal section-ivory section-pad" id="journal">
+      <div class="section-heading journal-heading"><div><p class="eyebrow dark-eyebrow">NOTES FROM THE ATELIER</p><h2>THE <em>JOURNAL.</em></h2></div><p class="section-intro">A collection of thoughts, techniques and inspirations from the world of fine patisserie.</p></div>
+      <div class="journal-grid">
+        <article class="journal-card"><button class="journal-image" data-journal="french"><img src="assets/images/journal_french_patisserie_1795507045160.jpg" alt="French patisserie in a quiet atelier" loading="lazy"><span>READ THE STORY ↗</span></button><div class="journal-meta"><span>CRAFT & CULTURE</span><span>06 MIN READ</span></div><h3>The Quiet Art of French Patisserie</h3><p>On restraint, repetition and the beauty of getting the smallest details right.</p><button class="journal-read" data-journal="french">Read journal entry ↗</button></article>
+        <article class="journal-card"><button class="journal-image" data-journal="chocolate"><img src="assets/images/journal_dark_chocolate_1795507044105.jpg" alt="Dark chocolate and cocoa textures" loading="lazy"><span>READ THE STORY ↗</span></button><div class="journal-meta"><span>INGREDIENT NOTES</span><span>04 MIN READ</span></div><h3>Understanding the Beauty of Dark Chocolate</h3><p>A closer look at depth, bitterness, texture and the character of cacao.</p><button class="journal-read" data-journal="chocolate">Read journal entry ↗</button></article>
+        <article class="journal-card"><button class="journal-image" data-journal="seasonal"><img src="assets/images/journal_seasonal_ingredients_1795507045928.jpg" alt="Seasonal fruit and carefully selected ingredients" loading="lazy"><span>READ THE STORY ↗</span></button><div class="journal-meta"><span>SEASONAL THINKING</span><span>05 MIN READ</span></div><h3>A Celebration of Seasonal Ingredients</h3><p>Why the best inspiration often begins with what is at its best right now.</p><button class="journal-read" data-journal="seasonal">Read journal entry ↗</button></article>
+      </div>
+    </section>
+
+    <section class="events section-burgundy">
+      <div class="events-inner">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PRIVATE EVENTS & CELEBRATIONS</p>
+        <h2>EXCEPTIONAL MOMENTS,<br><em>BEAUTIFULLY COMPOSED.</em></h2>
+        <p>Discover bespoke dessert experiences for private celebrations, intimate gatherings and memorable occasions.</p>
+        <button class="button button-gold" data-open-enquiry data-occasion="Private Event">Enquire about private events <span class="arrow">↗</span></button>
+      </div>
+      <div class="events-side">A MOMENT, MADE YOURS</div>
+    </section>
+
+    <section class="contact section-ivory section-pad" id="contact">
+      <div class="contact-main"><p class="eyebrow dark-eyebrow">A NOTE, A VISIT, AN ENQUIRY</p><h2>WE WOULD LOVE<br><em>TO HEAR FROM YOU.</em></h2><p>For bespoke commissions, private events or a simple conversation about something sweet, our atelier is listening.</p><button class="button button-dark" data-open-enquiry>Start a conversation <span class="arrow">↗</span></button></div>
+      <div class="contact-details"><div><span class="contact-label">FIND THE ATELIER</span><p>Tiruppur, Tamil Nadu<br>India</p></div><div><span class="contact-label">WRITE TO US</span><p><a href="mailto:concierge@noireatelier.example">concierge@noireatelier.example</a></p></div><div><span class="contact-label">OPENING HOURS · DEMO</span><p>Tuesday — Sunday<br>10:00 AM — 7:00 PM</p></div><div><span class="contact-label">FOLLOW THE ATELIER</span><p><a href="#contact" aria-label="Instagram placeholder">Instagram ↗</a></p></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-statement"><p class="eyebrow">MAISON DE PATISSERIE · TIRUPPUR</p><h2>UNTIL THE NEXT<br><em>INDULGENCE.</em></h2></div>
+    <div class="footer-grid">
+      <div class="footer-brand"><a class="wordmark footer-wordmark" href="#hero">NOIRÉ <span>ATELIER</span></a><p>The art of extraordinary indulgence. Refined desserts inspired by French pastry craftsmanship, seasonal ingredients and contemporary culinary artistry.</p></div>
+      <div><h3>NAVIGATION</h3><a href="#collections">Collections</a><a href="#craft">Our Craft</a><a href="#bespoke">Bespoke</a><a href="#journal">Journal</a></div>
+      <div><h3>COMMISSIONS</h3><button data-open-enquiry data-occasion="Wedding & Engagement">Wedding commissions</button><button data-open-enquiry data-occasion="Private Celebration">Private events</button><button data-open-enquiry data-occasion="Corporate & VIP Gifting">Bespoke gifting</button></div>
+      <div><h3>CONTACT · PLACEHOLDER</h3><p>Tiruppur, Tamil Nadu, India</p><a href="mailto:concierge@noireatelier.example">concierge@noireatelier.example</a><a href="https://wa.me/919000000000" target="_blank" rel="noopener">WhatsApp ↗</a><p>+91 90000 00000 (Demo)</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 NOIRÉ ATELIER. ALL RIGHTS RESERVED.</span><span>FICTIONAL LUXURY PATISSERIE CONCEPT · PORTFOLIO DEMO</span><a href="#hero">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel product-modal-panel" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-product-image"><img id="modalProductImage" src="" alt=""></div>
+      <div class="modal-product-copy"><p class="eyebrow dark-eyebrow" id="modalProductNumber"></p><h2 id="productModalTitle"></h2><p id="modalProductDescription"></p><div class="modal-price" id="modalProductPrice"></div><div class="modal-info"><span>COMPOSITION</span><p id="modalProductLayers"></p></div><div class="modal-info"><span>ALLERGEN NOTE</span><p id="modalProductAllergens"></p></div><button class="button button-dark" id="modalProductEnquire">Enquire about this creation ↗</button></div>
+    </section>
+  </div>
+
+  <div class="modal" id="journalModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel journal-modal-panel" role="dialog" aria-modal="true" aria-labelledby="journalModalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <p class="eyebrow dark-eyebrow" id="journalModalCategory"></p><h2 id="journalModalTitle"></h2><p class="journal-modal-meta" id="journalModalMeta"></p><img id="journalModalImage" src="" alt=""><p class="journal-excerpt" id="journalModalExcerpt"></p><div id="journalModalBody"></div><div class="journal-modal-nav"><button id="journalPrev">← Previous</button><button id="journalNext">Next entry →</button></div>
+    </article>
+  </div>
+
+  <div class="modal" id="enquiryModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel enquiry-panel" role="dialog" aria-modal="true" aria-labelledby="enquiryTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <p class="eyebrow dark-eyebrow">A PERSONAL CONVERSATION</p>
+      <h2 id="enquiryTitle">BEGIN YOUR<br><em>ENQUIRY.</em></h2>
+      <p class="form-intro">Tell us a little about what you have in mind. This is a demonstration form; it will prepare an enquiry message for WhatsApp rather than store your information.</p>
+      <form id="enquiryForm">
+        <div class="form-grid">
+          <label>Your name<input name="name" autocomplete="name" required placeholder="Full name"></label>
+          <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label>
+          <label>Occasion<select name="occasion" id="occasionSelect" required><option value="">Select an occasion</option><option>Bespoke Celebration</option><option>Wedding & Engagement</option><option>Private Event</option><option>Corporate & VIP Gifting</option><option>Seasonal Edition — A Study in Chocolate</option><option>General Enquiry</option></select></label>
+          <label>Preferred date<input name="date" type="date"></label>
+          <label>Approximate guests<select name="guests"><option value="">Not sure yet</option><option>2–10</option><option>11–25</option><option>26–50</option><option>51–100</option><option>100+</option></select></label>
+          <label class="full-field">Your vision<textarea name="message" rows="4" placeholder="Flavours, design inspiration, details..."></textarea></label>
+        </div>
+        <p class="form-error" id="formError" role="alert"></p>
+        <button class="button button-dark form-submit" type="submit">Prepare WhatsApp enquiry <span class="arrow">↗</span></button>
+        <p class="form-note">Demo contact number: +91 90000 00000. Replace before client use.</p>
+      </form>
+      <div class="form-success" id="formSuccess" hidden><span>✓</span><h3>Your enquiry is ready.</h3><p>WhatsApp should open with your message. Review it before sending.</p><a class="button button-dark" id="whatsappLaunch" href="#" target="_blank" rel="noopener">Continue to WhatsApp ↗</a></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
